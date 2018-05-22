@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskName": "task-VoorraadgeverDB",
+      "appliesTo": "Voorraadgever app/Assets/VoorraadgeverDB.db",
+      "type": "launch"
+    }
+  ]
+}

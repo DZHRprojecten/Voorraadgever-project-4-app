@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Voorraadgever app",
+    "\\Voorraadgever app\\Assets",
+    "\\Voorraadgever app\\Properties"
   ],
-  "SelectedNode": "\\Voorraadgever app.sln",
+  "SelectedNode": "\\Voorraadgeverapp.sln",
   "PreviewInSolutionExplorer": false
 }
