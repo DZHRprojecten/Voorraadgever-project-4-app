@@ -898,11 +898,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\users\\ik\\source\\repos\\App1\\App1\\App1.Android\\App1.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Ik\\Documents\\GitHub\\Voorraadgever-project-4-app\\App1\\App1.Android\\App1.Android.csproj",
       "projectName": "App1.Android",
-      "projectPath": "c:\\users\\ik\\source\\repos\\App1\\App1\\App1.Android\\App1.Android.csproj",
+      "projectPath": "C:\\Users\\Ik\\Documents\\GitHub\\Voorraadgever-project-4-app\\App1\\App1.Android\\App1.Android.csproj",
       "packagesPath": "C:\\Users\\Ik\\.nuget\\packages\\",
-      "outputPath": "c:\\users\\ik\\source\\repos\\App1\\App1\\App1.Android\\obj\\",
+      "outputPath": "C:\\Users\\Ik\\Documents\\GitHub\\Voorraadgever-project-4-app\\App1\\App1.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
