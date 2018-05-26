@@ -470,23 +470,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ik\\.nuget\\packages\\": {},
+    "C:\\Users\\Remmy\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ik\\source\\repos\\App3\\App3\\App3\\App3.csproj",
+      "projectUniqueName": "D:\\Documenten\\GitHub\\Voorraadgever-project-4-app\\App3\\App3\\App3.csproj",
       "projectName": "App3",
-      "projectPath": "C:\\Users\\Ik\\source\\repos\\App3\\App3\\App3\\App3.csproj",
-      "packagesPath": "C:\\Users\\Ik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ik\\source\\repos\\App3\\App3\\App3\\obj\\",
+      "projectPath": "D:\\Documenten\\GitHub\\Voorraadgever-project-4-app\\App3\\App3\\App3.csproj",
+      "packagesPath": "C:\\Users\\Remmy\\.nuget\\packages\\",
+      "outputPath": "D:\\Documenten\\GitHub\\Voorraadgever-project-4-app\\App3\\App3\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Ik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Remmy\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

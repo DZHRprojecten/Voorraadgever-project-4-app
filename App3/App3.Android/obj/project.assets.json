@@ -925,20 +925,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ik\\.nuget\\packages\\": {}
+    "C:\\Users\\Remmy\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ik\\source\\repos\\App3\\App3\\App3.Android\\App3.Android.csproj",
+      "projectUniqueName": "D:\\Documenten\\GitHub\\Voorraadgever-project-4-app\\App3\\App3.Android\\App3.Android.csproj",
       "projectName": "App3.Android",
-      "projectPath": "C:\\Users\\Ik\\source\\repos\\App3\\App3\\App3.Android\\App3.Android.csproj",
-      "packagesPath": "C:\\Users\\Ik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ik\\source\\repos\\App3\\App3\\App3.Android\\obj\\",
+      "projectPath": "D:\\Documenten\\GitHub\\Voorraadgever-project-4-app\\App3\\App3.Android\\App3.Android.csproj",
+      "packagesPath": "C:\\Users\\Remmy\\.nuget\\packages\\",
+      "outputPath": "D:\\Documenten\\GitHub\\Voorraadgever-project-4-app\\App3\\App3.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\Ik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Remmy\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -951,8 +951,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "C:\\Users\\Ik\\source\\repos\\App3\\App3\\App3\\App3.csproj": {
-              "projectPath": "C:\\Users\\Ik\\source\\repos\\App3\\App3\\App3\\App3.csproj"
+            "D:\\Documenten\\GitHub\\Voorraadgever-project-4-app\\App3\\App3\\App3.csproj": {
+              "projectPath": "D:\\Documenten\\GitHub\\Voorraadgever-project-4-app\\App3\\App3\\App3.csproj"
             }
           }
         }

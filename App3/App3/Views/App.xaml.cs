@@ -12,7 +12,12 @@ namespace App3
 		{
 			InitializeComponent();
 
-			MainPage = new NavigationPage(new Page1(dbPath));
+            //MainPage = new NavigationPage(new Page1(dbPath));
+            MainPage = new MasterDetailPage()
+            {
+                Master = new MainMenuMaster() { Title = "Menu" },
+                Detail = new NavigationPage(new Page1(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal)))
+            };
 		}
 
 		protected override void OnStart ()
