@@ -4,9 +4,7 @@
              x:Class="App3.Voorraadlijst">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Hier komt de voorraadlijst!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Button Text="Producten toevoegen" Clicked="PRDCTLSTVLBTNCLICKED" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

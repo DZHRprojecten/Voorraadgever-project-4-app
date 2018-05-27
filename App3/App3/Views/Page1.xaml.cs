@@ -36,15 +36,5 @@ namespace App3.Views
         {
             await Navigation.PushAsync(new Help());
         }
-
-        async void STDPRDCTNBTNCLICKED(object sender, System.EventArgs e)
-        {
-            string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
-            var path = Path.Combine(targetPath, "VoorraadgeverDB.db");
-
-            await Navigation.PushAsync(new MainPage(path));
-        }
-
-
     }
 }

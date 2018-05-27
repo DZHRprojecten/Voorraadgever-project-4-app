@@ -4,9 +4,7 @@
              x:Class="App3.Boodschappenlijst">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Hier komt de boodschappenlijst!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Button Text="Producten toevoegen" Clicked="PRDCTLSTBLBTNCLICKED" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
