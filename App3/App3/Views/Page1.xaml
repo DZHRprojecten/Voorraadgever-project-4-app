@@ -4,7 +4,11 @@
              x:Class="App3.Views.Page1">
     <ContentPage.Content>
         <StackLayout>
+            <Button Text="Voorraadlijst" Clicked="VRDLSTBTNCLICKED" />
             <Button Text="Boodschappenlijst" Clicked="BSHPNBTNCLICKED" />
+            <Button Text="Instellingen" Clicked="INSTBTNCLICKED" />
+            <Button Text="Help" Clicked="HLPBTNCLICKED" />
+            <Button Text="Standaard productenlijst" Clicked="STDPRDCTNBTNCLICKED" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

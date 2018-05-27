@@ -15,3 +15,12 @@ D:\Documenten\GitHub\Voorraadgever-project-4-app\App3\App3\obj\Debug\netstandard
 D:\Documenten\GitHub\Voorraadgever-project-4-app\App3\App3\obj\Debug\netstandard2.0\App3.AssemblyInfo.cs
 D:\Documenten\GitHub\Voorraadgever-project-4-app\App3\App3\obj\Debug\netstandard2.0\App3.dll
 D:\Documenten\GitHub\Voorraadgever-project-4-app\App3\App3\obj\Debug\netstandard2.0\App3.pdb
+C:\Users\danny\OneDrive\Documenten\GitHub\Voorraadgever-project-4-app\App3\App3\bin\Debug\netstandard2.0\App3.deps.json
+C:\Users\danny\OneDrive\Documenten\GitHub\Voorraadgever-project-4-app\App3\App3\bin\Debug\netstandard2.0\App3.dll
+C:\Users\danny\OneDrive\Documenten\GitHub\Voorraadgever-project-4-app\App3\App3\bin\Debug\netstandard2.0\App3.pdb
+C:\Users\danny\OneDrive\Documenten\GitHub\Voorraadgever-project-4-app\App3\App3\obj\Debug\netstandard2.0\App3.csproj.CoreCompileInputs.cache
+C:\Users\danny\OneDrive\Documenten\GitHub\Voorraadgever-project-4-app\App3\App3\obj\Debug\netstandard2.0\App3.AssemblyInfoInputs.cache
+C:\Users\danny\OneDrive\Documenten\GitHub\Voorraadgever-project-4-app\App3\App3\obj\Debug\netstandard2.0\App3.AssemblyInfo.cs
+C:\Users\danny\OneDrive\Documenten\GitHub\Voorraadgever-project-4-app\App3\App3\obj\Debug\netstandard2.0\App3.dll
+C:\Users\danny\OneDrive\Documenten\GitHub\Voorraadgever-project-4-app\App3\App3\obj\Debug\netstandard2.0\App3.pdb
+C:\Users\danny\OneDrive\Documenten\GitHub\Voorraadgever-project-4-app\App3\App3\obj\Debug\netstandard2.0\App3.csprojAssemblyReference.cache

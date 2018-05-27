@@ -18,7 +18,26 @@ namespace App3.Views
 			InitializeComponent();
 		}
 
+        async void VRDLSTBTNCLICKED(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new Voorraadlijst());
+        }
+
         async void BSHPNBTNCLICKED(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new Boodschappenlijst());
+        }
+        async void INSTBTNCLICKED(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new Instellingen());
+        }
+
+        async void HLPBTNCLICKED(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new Help());
+        }
+
+        async void STDPRDCTNBTNCLICKED(object sender, System.EventArgs e)
         {
             string targetPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
             var path = Path.Combine(targetPath, "VoorraadgeverDB.db");
