@@ -8,8 +8,6 @@ using App3.Data;
 using SQLite;
 
 
-
-
 namespace App3
 {
 	public partial class MainPage : ContentPage

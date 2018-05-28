@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using System.IO;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using SQLite;
+using App3.Data;
 
 namespace App3
 {
@@ -24,5 +26,23 @@ namespace App3
 
             await Navigation.PushAsync(new MainPage(path));
         }
+        
+        private SQLiteAsyncConnection _connection;
+        private List<VoorraadlijstDB> _productsSDB;
+
+        public Voorraadlijst(string dbPath)
+        {
+            _connection = new SQLiteAsyncConnection(dbPath);
+            InitializeComponent();
+        }
+        protected override async void OnAppearing()
+        {
+            await _connection.CreateTableAsync<VoorraadlijstDB>();
+            var Voorraden = await _connection.Table<VoorraadlijstDB>().ToListAsync();
+            _productsSDB = new List<VoorraadlijstDB>(Voorraden);
+            Voorraadlijstview.ItemsSource = _productsSDB;
+            base.OnAppearing();
+        }
     }
+
 }
