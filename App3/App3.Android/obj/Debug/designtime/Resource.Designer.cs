@@ -24,11 +24,6 @@ namespace App3.Droid
 			global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 		}
 		
-		public static void UpdateIdValues()
-		{
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::App3.Droid.Resource.Attribute.actionBarSize;
-		}
-		
 		public partial class Animation
 		{
 			

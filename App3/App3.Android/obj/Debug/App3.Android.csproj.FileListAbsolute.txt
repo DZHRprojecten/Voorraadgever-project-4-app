@@ -304,8 +304,3 @@ C:\Users\danny\OneDrive\Documenten\GitHub\Voorraadgever-project-4-app\App3\App3.
 C:\Users\danny\OneDrive\Documenten\GitHub\Voorraadgever-project-4-app\App3\App3.Android\obj\Debug\android\assets\System.Xml.pdb
 C:\Users\danny\OneDrive\Documenten\GitHub\Voorraadgever-project-4-app\App3\App3.Android\obj\Debug\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\danny\OneDrive\Documenten\GitHub\Voorraadgever-project-4-app\App3\App3.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.pdb
-C:\Users\danny\OneDrive\Documenten\GitHub\Voorraadgever-project-4-app\App3\App3.Android\bin\Debug\App3.Android.dll
-C:\Users\danny\OneDrive\Documenten\GitHub\Voorraadgever-project-4-app\App3\App3.Android\obj\Debug\linksrc\App3.pdb
-C:\Users\danny\OneDrive\Documenten\GitHub\Voorraadgever-project-4-app\App3\App3.Android\obj\Debug\linksrc\App3.Android.dll.mdb
-C:\Users\danny\OneDrive\Documenten\GitHub\Voorraadgever-project-4-app\App3\App3.Android\obj\Debug\linksrc\FormsViewGroup.dll.mdb
-C:\Users\danny\OneDrive\Documenten\GitHub\Voorraadgever-project-4-app\App3\App3.Android\obj\Debug\linksrc\Xamarin.Forms.Platform.Android.dll.mdb
