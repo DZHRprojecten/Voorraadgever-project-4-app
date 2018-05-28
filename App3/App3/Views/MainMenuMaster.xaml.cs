@@ -33,10 +33,11 @@ namespace App3.Views
             {
                 MenuItems = new ObservableCollection<MainMenuMenuItem>(new[]
                 {
-                    new MainMenuMenuItem { Id = 0, Title = "Voorraadlijst" },
-                    new MainMenuMenuItem { Id = 1, Title = "Boodschappenlijst" },
-                    new MainMenuMenuItem { Id = 2, Title = "Instellingen" },
-                    new MainMenuMenuItem { Id = 3, Title = "Help" },
+                    new MainMenuMenuItem { Id = 0, Title = "Hoofdmenu" },
+                    new MainMenuMenuItem { Id = 1, Title = "Voorraadlijst" },
+                    new MainMenuMenuItem { Id = 2, Title = "Boodschappenlijst" },
+                    new MainMenuMenuItem { Id = 3, Title = "Instellingen" },
+                    new MainMenuMenuItem { Id = 4, Title = "Help" },
                 });
             }
             
