@@ -1,0 +1,67 @@
+﻿Start App3.Android, HUAWEI WAS-LX1A Player, .
+Attempting connection to debug address: 145.24.226.249:37847.
+Connected to: 145.24.226.249:37847.
+Deploying C:\Users\Ik\source\repos\App3\App3\App3.Android\App3.Android.csproj...
+Got device info: HUAWEI WAS-LX1A Player (Android) @ 145.24.226.249:37847
+Synchronizing files...
+Building and running...
+Built with 2 messages.
+(1,1): error: Failed to load assembly from stream: System.AggregateException: One or more errors occurred. ---> System.AggregateException: One or more errors occurred. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path "/data/user/0/com.xamarin.live/files/External/.nuget/packages/sqlitepclraw.lib.e_sqlite3.android/1.1.5/lib/MonoAndroid/SQLitePCLRaw.lib.e_sqlite3.dll".
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0017d] in <896ad1d315ca4ba7b117efb8dacaedcf>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <896ad1d315ca4ba7b117efb8dacaedcf>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream:.ctor (string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  at System.IO.File.OpenRead (System.String path) [0x00000] in <896ad1d315ca4ba7b117efb8dacaedcf>:0 
+  at <StartupCode$Continuous-Core-Droid>.$LocalFileSystem+Upsight-IFileSystem-OpenReadAsync@49-1.Invoke () [0x00012] in <5a7d391011b47c3aa745038310397d5a>:0 
+  at System.Threading.Tasks.Task`1[TResult].InnerInvoke () [0x0000f] in <896ad1d315ca4ba7b117efb8dacaedcf>:0 
+  at System.Threading.Tasks.Task.Execute () [0x00010] in <896ad1d315ca4ba7b117efb8dacaedcf>:0 
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+---> (Inner Exception #0) System.AggregateException: One or more errors occurred. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path "/data/user/0/com.xamarin.live/files/External/.nuget/packages/sqlitepclraw.lib.e_sqlite3.android/1.1.5/lib/MonoAndroid/SQLitePCLRaw.lib.e_sqlite3.dll".
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0017d] in <896ad1d315ca4ba7b117efb8dacaedcf>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <896ad1d315ca4ba7b117efb8dacaedcf>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream:.ctor (string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  at System.IO.File.OpenRead (System.String path) [0x00000] in <896ad1d315ca4ba7b117efb8dacaedcf>:0 
+  at <StartupCode$Continuous-Core-Droid>.$LocalFileSystem+Upsight-IFileSystem-OpenReadAsync@49-1.Invoke () [0x00012] in <5a7d391011b47c3aa745038310397d5a>:0 
+  at System.Threading.Tasks.Task`1[TResult].InnerInvoke () [0x0000f] in <896ad1d315ca4ba7b117efb8dacaedcf>:0 
+  at System.Threading.Tasks.Task.Execute () [0x00010] in <896ad1d315ca4ba7b117efb8dacaedcf>:0 
+   --- End of inner exception stack trace ---
+---> (Inner Exception #0) System.IO.DirectoryNotFoundException: Could not find a part of the path "/data/user/0/com.xamarin.live/files/External/.nuget/packages/sqlitepclraw.lib.e_sqlite3.android/1.1.5/lib/MonoAndroid/SQLitePCLRaw.lib.e_sqlite3.dll".
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0017d] in <896ad1d315ca4ba7b117efb8dacaedcf>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <896ad1d315ca4ba7b117efb8dacaedcf>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream:.ctor (string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  at System.IO.File.OpenRead (System.String path) [0x00000] in <896ad1d315ca4ba7b117efb8dacaedcf>:0 
+  at <StartupCode$Continuous-Core-Droid>.$LocalFileSystem+Upsight-IFileSystem-OpenReadAsync@49-1.Invoke () [0x00012] in <5a7d391011b47c3aa745038310397d5a>:0 
+  at System.Threading.Tasks.Task`1[TResult].InnerInvoke () [0x0000f] in <896ad1d315ca4ba7b117efb8dacaedcf>:0 
+  at System.Threading.Tasks.Task.Execute () [0x00010] in <896ad1d315ca4ba7b117efb8dacaedcf>:0 <---
+<---
+
+(1,1): error: Failed to load assembly from stream: System.AggregateException: One or more errors occurred. ---> System.AggregateException: One or more errors occurred. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path "/data/user/0/com.xamarin.live/files/External/.nuget/packages/sqlitepclraw.provider.e_sqlite3.android/1.1.5/lib/MonoAndroid/SQLitePCLRaw.provider.e_sqlite3.dll".
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0017d] in <896ad1d315ca4ba7b117efb8dacaedcf>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <896ad1d315ca4ba7b117efb8dacaedcf>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream:.ctor (string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  at System.IO.File.OpenRead (System.String path) [0x00000] in <896ad1d315ca4ba7b117efb8dacaedcf>:0 
+  at <StartupCode$Continuous-Core-Droid>.$LocalFileSystem+Upsight-IFileSystem-OpenReadAsync@49-1.Invoke () [0x00012] in <5a7d391011b47c3aa745038310397d5a>:0 
+  at System.Threading.Tasks.Task`1[TResult].InnerInvoke () [0x0000f] in <896ad1d315ca4ba7b117efb8dacaedcf>:0 
+  at System.Threading.Tasks.Task.Execute () [0x00010] in <896ad1d315ca4ba7b117efb8dacaedcf>:0 
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+---> (Inner Exception #0) System.AggregateException: One or more errors occurred. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path "/data/user/0/com.xamarin.live/files/External/.nuget/packages/sqlitepclraw.provider.e_sqlite3.android/1.1.5/lib/MonoAndroid/SQLitePCLRaw.provider.e_sqlite3.dll".
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0017d] in <896ad1d315ca4ba7b117efb8dacaedcf>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <896ad1d315ca4ba7b117efb8dacaedcf>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream:.ctor (string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  at System.IO.File.OpenRead (System.String path) [0x00000] in <896ad1d315ca4ba7b117efb8dacaedcf>:0 
+  at <StartupCode$Continuous-Core-Droid>.$LocalFileSystem+Upsight-IFileSystem-OpenReadAsync@49-1.Invoke () [0x00012] in <5a7d391011b47c3aa745038310397d5a>:0 
+  at System.Threading.Tasks.Task`1[TResult].InnerInvoke () [0x0000f] in <896ad1d315ca4ba7b117efb8dacaedcf>:0 
+  at System.Threading.Tasks.Task.Execute () [0x00010] in <896ad1d315ca4ba7b117efb8dacaedcf>:0 
+   --- End of inner exception stack trace ---
+---> (Inner Exception #0) System.IO.DirectoryNotFoundException: Could not find a part of the path "/data/user/0/com.xamarin.live/files/External/.nuget/packages/sqlitepclraw.provider.e_sqlite3.android/1.1.5/lib/MonoAndroid/SQLitePCLRaw.provider.e_sqlite3.dll".
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0017d] in <896ad1d315ca4ba7b117efb8dacaedcf>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <896ad1d315ca4ba7b117efb8dacaedcf>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream:.ctor (string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  at System.IO.File.OpenRead (System.String path) [0x00000] in <896ad1d315ca4ba7b117efb8dacaedcf>:0 
+  at <StartupCode$Continuous-Core-Droid>.$LocalFileSystem+Upsight-IFileSystem-OpenReadAsync@49-1.Invoke () [0x00012] in <5a7d391011b47c3aa745038310397d5a>:0 
+  at System.Threading.Tasks.Task`1[TResult].InnerInvoke () [0x0000f] in <896ad1d315ca4ba7b117efb8dacaedcf>:0 
+  at System.Threading.Tasks.Task.Execute () [0x00010] in <896ad1d315ca4ba7b117efb8dacaedcf>:0 <---
+<---
+
+Failed to debug your app.
